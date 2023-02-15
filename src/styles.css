@@ -26,9 +26,9 @@ nav {
   background-color: var(--third-color);
 }
 
-nav i {
-  color: white;
-  font-size: 26px;
+nav img {
+  aspect-ratio: 1;
+  max-width: 30px;
 }
 
 h1 {
