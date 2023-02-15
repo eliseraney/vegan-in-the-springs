@@ -24,7 +24,6 @@ header {
 
 nav {
   background-color: var(--third-color);
-  color: white;
 }
 
 nav i {
@@ -32,10 +31,82 @@ nav i {
   font-size: 26px;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: var(--fifth-color);
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--fourth-color);
+}
+
 header h1 {
   font-weight: 700;
   font-size: 75px;
   letter-spacing: 5px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  color: white;
+}
+
+section {
+  margin: 50px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: white;
+}
+
+.active {
+  color: var(--fifth-color) !important;
+}
+
+.nav-link:hover {
+  color: var(--fifth-color);
+}
+
+.navbar-toggler,
+.navbar-collapse.show {
+  color: var(--fifth-color);
+  border: none;
+}
+
+.dropdown-menu {
+  background-color: var(--third-color);
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: var(--fifth-color) !important;
+  color: white !important;
+}
+
+.dropdown-item.active {
+  background-color: var(--third-color);
+}
+
+.restaurant {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    max-width: 100%;
+  }
 }
