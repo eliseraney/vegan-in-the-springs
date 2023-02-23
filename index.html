@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vegan in the Springs</title>
-    <link rel="icon" type="image/x-icon" href="/images/carrot-solid-orange.png">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/carrot-solid-orange.png"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,63 +28,26 @@
     ></script>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="/images/carrot-solid -purple.png" alt="A purple carrot" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Restaurants
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="/vegan-restaurants.html"
-                    >Vegan</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="/vegan-friendly-restaurants.html"
-                    >Vegan-Friendly</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-      </div>
-    </nav>
-  </div>
+  <div class="container-fluid"></div>
   <body>
     <div class="container-fluid">
       <header class="container-fluid">
+        <nav>
+          <div class="navbar">
+            <a href="/index.html" class="active">Home</a>
+            <a href="/about.html">About</a>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Restaurants
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="restaurantDropdown">
+                <a href="/vegan-restaurants.html">Vegan</a>
+                <a href="/vegan-friendly-restaurants.html">Vegan-Friendly</a>
+              </div>
+            </div>
+          </div>
+        </nav>
         <h1>Vegan in the Springs</h1>
       </header>
       <section>
@@ -91,10 +58,6 @@
         ></iframe>
       </section>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
+    <script src="src/script.js"></script>
   </body>
 </html>
